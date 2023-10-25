@@ -24,7 +24,7 @@ async function main() {
                     path: product.path,
                     name: product.name,
                     desc: product.desc,
-                    img: product.path,
+                    img: product.img,
                     price: product.price,
                     categoryId: productCateg.id,
                 }
