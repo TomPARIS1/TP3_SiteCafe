@@ -1,0 +1,11 @@
+.table {
+  @apply w-full;
+}
+
+.table td {
+  @apply border-b-2 border-gray-200 py-4;
+}
+
+.table tr:last-child td {
+  @apply border-b-0;
+}
