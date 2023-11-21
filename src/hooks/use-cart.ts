@@ -87,3 +87,10 @@ export const computeCartTotal = (lines: ProductLineData[]): number => {
 
   return lines.map((l) => l.product.price * l.qty).reduce((a, b) => a + b);
 }
+
+export function clearCart() {
+    useCart.setState((data) => ({
+        lines:[],
+        count:0
+    }))
+}
